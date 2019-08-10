@@ -22,6 +22,13 @@ This sample use autoload, namespace, composer with PST-4 - https://github.com/ri
 
 This sample use PDO to select all registers from a table - https://github.com/ribafs/simplest-mvc-php/tree/master/mvc3
 
+## Another samples
+
+https://github.com/victorcmarinho/CRUD-MVC-PHP
+http://www.w3programmers.com/crud-with-php-mvc-pdo-json-and-twitter-bootstrap/
+https://github.com/jescascela/MVC-PHP
+https://github.com/jvadillo/php-mvc-step-by-step
+
 ## Licence
 
 MIT
