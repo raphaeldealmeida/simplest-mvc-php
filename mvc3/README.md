@@ -1,8 +1,8 @@
-Bem simples aplicativo usando PHP com MVC
+##Bem simples aplicativo usando PHP com MVC
 
 Esta versão tem a pretensão de criar um CRUD de clientes.
 
-Vejamos os papeis dos componentes:
+###Vejamos os papeis dos componentes:
 
 - Model - é onde a regra de negócios acontece. No caso de uma calculadora é aqui que os cálculos são feitos
 
@@ -23,10 +23,11 @@ Observe que tudo começa e termina no index.php
 - O controller devolve para a view
 - A view devolve para o index.php
 
-Instalação
+###Instalação
 
-- Copiar esta pasta para seu documentroot
+- No terminal/prompt restaure o banco de dados com o comando `msql -u <usuario> -p testes < db.sql` 
 - Acesse o terminal/prompt e execute:
-composer dump-autoload
-- Chame a pasta pelo navegador
-
+`composer dump-autoload`
+- Entre no terminal/prompt e execute:
+`php -S localhost:3000 -t`
+- Acesse o navegador http://localhost:3000

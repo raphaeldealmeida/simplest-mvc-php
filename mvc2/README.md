@@ -1,6 +1,6 @@
-Bem simples aplicativo usando PHP com MVC
+##Bem simples aplicativo usando PHP com MVC
 
-Vejamos os papeis dos componentes:
+###Vejamos os papeis dos componentes:
 
 - Model - é onde a regra de negócios acontece. No caso de uma calculadora é aqui que os cálculos são feitos
 
@@ -19,7 +19,7 @@ Observe que tudo começa e termina no index.php
 - O controller devolve para a view
 - A view devolve para o index.php
 
-Quando a adoção do PSR-4
+##Quando a adoção do PSR-4
 
 Ele casa os arquivos do diretório
 
@@ -29,7 +29,7 @@ Com o namespace
 
 App
 
-Instalação
+##Instalação
 
 - Copiar esta pasta para seu documentroot
 - Acesse o terminal/prompt e execute:
